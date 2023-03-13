@@ -2,10 +2,10 @@
 
 ## Description
 
-My movtivation to build a working calendar was to show the progression of my JavaScript skills.  Also to show my added JQuery skiils. 
+My movtivation to build a working calendar was to show the progression of my JavaScript skills.  Also to show my added JQuery skills. 
 I built this project to test my JavaScript and JQuery skills and to continue to show my progression of coding. 
 The calendar solved the problem of forgetting events or tasks.  As long as events are stored in the calender it will remind you of them.
-I learned that APIs are awesome, and that I have a long road ahead of learning all the features they add. 
+I learned that API's are awesome, and that I have a long road ahead of learning all the features they add. 
 
 ## Installation
 
