@@ -21,15 +21,13 @@ $(".saveBtn").on("click", function () {
 
 
 $(function () {
-     currentTime =  dayjs().hour();
+    currentTime =  dayjs().hour();
+    const workDayTime = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
-      const workDayTime = [9, 10, 11, 12, 13, 14, 15, 16, 17];
      for (let i = 0; i < workDayTime.length; i++) {
         let workDay = workDayTime[i];
       if (workDay < currentTime) {
-             console.log("hour-" + currentTime);
-             $("#hour-" + workDay).addClass("past");
-          
+        $("#hour-" + workDay).addClass("past");
        } else if (workDay > currentTime) {
          $("#hour-" + workDay).addClass("future");
         } else {
